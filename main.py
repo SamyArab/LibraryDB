@@ -114,7 +114,7 @@ while (count < 100):
 
 
     #insert prompt to be written into a text file
-    book = "INSERT INTO Books (ISBN, title, publish_date, language, num_page)" + "\nVALUES({isbn}, {title}, {publish_date}, {author}, {country}, {language}, {num_page}, {subjects});".format(
+    book = "INSERT INTO Books (ISBN, title, publish_date, author, country, language, num_page, subjects)" + "\nVALUES({isbn}, {title}, {publish_date}, {author}, {country}, {language}, {num_page}, {subjects});".format(
                         isbn = isbn[0], 
                         title = title,
                         publish_date = date,
